@@ -1,1 +1,1 @@
-console.log("¡AquaFriend está funcionando!");
+console.log("AquaFriend está funcionando");
