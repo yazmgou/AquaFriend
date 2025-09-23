@@ -13,18 +13,59 @@
         <link rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
         <style>
+      /* Variable de color principal de la marca */
       :root{--brand:#0d6efd}
+      /* Altura fija para el logo en la barra de navegación */
       .navbar-logo{height:48px}
+      /* Títulos de sección en negrita */
       .section-title{font-weight:800}
+      /* Bordes extra redondeados para tarjetas y elementos */
       .rounded-xxl{border-radius:1.25rem}
-      header.hero{min-height:60svh;background:linear-gradient(180deg,#0d6efd22,transparent), url('/proyecto_acuario/src/imagenes/hero.jpg') center/cover no-repeat; position:relative}
-      header.hero .overlay{position:absolute;inset:0;background:linear-gradient(180deg,#00000066,transparent 40%,#00000066)}
-      header.hero .content{position:relative;z-index:1;color:#fff}
-      .icon-grid svg{width:72px;height:72px;display:block;margin-inline:auto}
-      .icon-grid .kw{font-size:.85rem;line-height:1.15}
-      .btn-brand{--bs-btn-bg:var(--brand);--bs-btn-border-color:var(--brand);--bs-btn-hover-bg:#0b5ed7;--bs-btn-hover-border-color:#0b5ed7}
-      .gallery-img{aspect-ratio:4/3;object-fit:cover}
+      /* Header principal tipo "hero" con fondo degradado y una imagen */
+      header.hero{
+        min-height:60svh; /* Altura mínima usando unidades de viewport */
+        background:linear-gradient(180deg,#0d6efd22,transparent), url('/proyecto_acuario/src/imagenes/hero.jpg') center/cover no-repeat;
+        position:relative;
+      }
+      /* Superposición oscura sobre el header para mejorar contraste */
+      header.hero .overlay{
+        position:absolute;
+        inset:0;
+        background:linear-gradient(180deg,#00000066,transparent 40%,#00000066);
+      }
+      /* Contenido del header por encima de la superposición, texto blanco */
+      header.hero .content{
+        position:relative;
+        z-index:1;
+        color:#fff;
+      }
+      /* Iconos SVG en la cuadrícula, tamaño grande y centrados */
+      .icon-grid svg{
+        width:72px;
+        height:72px;
+        display:block;
+        margin-inline:auto;
+      }
+      /* Palabras clave en la cuadrícula de iconos, fuente pequeña y compacta */
+      .icon-grid .kw{
+        font-size:.85rem;
+        line-height:1.15;
+      }
+      /* Botón principal con colores personalizados de la marca */
+      .btn-brand{
+        --bs-btn-bg:var(--brand);
+        --bs-btn-border-color:var(--brand);
+        --bs-btn-hover-bg:#0b5ed7;
+        --bs-btn-hover-border-color:#0b5ed7;
+      }
+      /* Imágenes de la galería con proporción 4:3 y recorte para cubrir el espacio */
+      .gallery-img{
+        aspect-ratio:4/3;
+        object-fit:cover;
+      }
+      /* Enlaces en el pie de página mantienen el color heredado */
       .site-footer a{color:inherit}
+      /* Botón flotante para volver arriba, posición fija en la pantalla */
       #btnTop{right:1rem;bottom:1rem}
     </style>
     </head>
