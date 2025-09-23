@@ -1,0 +1,21 @@
+{
+  "name": "aquafriend",
+  "version": "1.0.0",
+  "description": "AquaFriend es una plataforma web educativa y turística interactiva desarrollada para el Acuario de Puyehue y su Granja Educativa.\r El proyecto busca acercar la educación ambiental a estudiantes, familias y público general mediante un recorrido virtual inmersivo en 360°, accesible desde cualquier dispositivo.\r ## Requisitos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Aquafriend/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vavidal/AquaFriend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vavidal/AquaFriend/issues"
+  },
+  "homepage": "https://github.com/vavidal/AquaFriend#readme"
+}

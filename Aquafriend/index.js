@@ -1,0 +1,1 @@
+console.log("¡AquaFriend está funcionando!");
